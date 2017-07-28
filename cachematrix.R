@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## Programming Assignment 2
+## Caching the mean of a vector 
+## and then caching the inverse of a matrix
+##Matrix inversion is usually a costly computation 
+##and there may be some benefit to caching the inverse of a matrix rather than compute it repeatedly
 
 makeCacheMatrix <- function(x = matrix()) {
 
